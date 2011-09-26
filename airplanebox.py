@@ -1,5 +1,9 @@
-##    Dow Drake, 9/20/2011
-
+#!/usr/bin/env python
+#  2011 Dow Drake
+"""
+This module provides some functions for computing corrected Euler angles
+from the output (also Euler angles) of an imperfectly-mounted IMU.
+"""
 import pylab
 import sys
 from numpy import *
